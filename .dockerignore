@@ -1,0 +1,12 @@
+.dockerignore
+.git
+.gitignore
+.formatter.exs
+Dockerfile
+_build/
+deps/
+test/
+erl_crash.dump
+/priv/static/assets/
+/priv/static/cache_manifest.json
+/assets/node_modules/
