@@ -34,7 +34,7 @@ defmodule PhoenixStarterWeb.HomeLive do
         <h1 class="text-3xl font-semibold">Phoenix starter</h1>
         <p>
           Phoenix {Application.spec(:phoenix, :vsn)} on Elixir {System.version()}, deployed on
-          <a href="https://containify.net" class="link">Containify</a>.
+          <a href="https://containify.cloud" class="link">Containify</a>.
         </p>
         <p>
           This page has been visited <strong id="visits">{@visits}</strong>

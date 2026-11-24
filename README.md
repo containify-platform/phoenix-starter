@@ -1,7 +1,9 @@
 # Phoenix starter
 
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/phoenix)
+
 A minimal [Phoenix](https://www.phoenixframework.org) 1.8 LiveView app on Elixir 1.20 with a
-PostgreSQL database, ready to deploy on [Containify](https://containify.net). The home page is
+PostgreSQL database, ready to deploy on [Containify](https://containify.cloud). The home page is
 a LiveView that records each visit in Postgres and shows the count, updating live in every open
 tab; `/healthz` is the health check.
 
@@ -9,6 +11,10 @@ The production image is a `mix release` on Debian, running as `nobody`: it has t
 runtime but neither Elixir nor the source code. It listens on port 4000, on IPv6 and IPv4.
 
 ## Deploy on Containify
+
+[![Deploy on Containify](https://containify.cloud/deploy-button.svg)](https://containify.cloud/templates/phoenix)
+
+One click deploys it on [Containify](https://containify.cloud). The [template page](https://containify.cloud/templates/phoenix) shows what it creates, and passwords, connection strings and the HTTPS address are filled in for you.
 
 Deploy the **Phoenix starter** template from the Containify catalogue. It creates:
 
@@ -20,7 +26,7 @@ follows the app's public hostname, and `/app/bin/migrate` runs as the pre-deploy
 migrations run once per deploy before the new version takes traffic.
 
 To build your own app from it, fork this repository and point the app's source at your fork.
-See the [Phoenix guide](https://containify.net/docs/guides/phoenix).
+See the [Phoenix guide](https://containify.cloud/docs/guides/phoenix).
 
 ## Run locally
 
@@ -60,3 +66,7 @@ docker run -p 4000:4000 \
 ## License
 
 MIT
+
+---
+
+Made by [Containify](https://containify.cloud): deploy apps, databases and workers from a Git repo or an image, with per-second billing. [Docs](https://containify.cloud/docs) · [Templates](https://containify.cloud/templates)
